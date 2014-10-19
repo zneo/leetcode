@@ -10,6 +10,7 @@ class Solution {
 public:
     void merge(int A[], int m, int B[], int n) {
 
+    	
     	if(((A[0]<=A[m-1])^(B[0]<=B[n-1]))) {
     		int tmp;
     		for(unsigned i = 0; i < n/2; ++i) {
@@ -18,6 +19,8 @@ public:
     			B[n-i-1] = tmp;
     		}
     	}
+
+    	int direction = (A[i] - A[m-1])<;
 
 
 
